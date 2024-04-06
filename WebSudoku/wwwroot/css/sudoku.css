@@ -1,58 +1,80 @@
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 table,
 th,
 td {
-    align-self: center;
-    border: 1px solid black;
-    padding: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
+  align-self: center;
+  border: 1px solid black;
+  padding: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.sub-grid-light {
+  background-color: #f0f0f0;
+}
+
+.sub-grid-dark {
+  background-color: #c0c0c0;
 }
 
 th,
 td {
-    width: 50px;
-    /* Set width of cells */
-    height: 50px;
-    /* Set height of cells */
+  width: 50px;
+
+  height: 50px;
 }
 
-body{
-    background-color: #ffcccc;
+body {
+  background-color: #ffcccc;
 }
 
 .sudoku-input {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    font-size: 16px;
-    /* Adjust font size as needed */
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .incorrect-input {
-    background-color: #ffcccc;
-    /* Light red */
+  background-color: #ffcccc;
+  /* Light red */
 }
 
 p {
-    color: red;
-    font-size: x-large;
+  color: red;
+  font-size: x-large;
 }
 
 .button-container {
-    margin-top: 2%;
-    display: inline-block;
+  margin-top: 2%;
+  display: inline-block;
 }
 
-
 button {
-    display: block;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.active-input {
+  background-color: #ffff99;
+  /* Light yellow */
+}
+
+.active-row td {
+  background-color: rgba(144, 238, 144, 0.3);
+}
+
+.active-column {
+  background-color: rgba(144, 238, 144, 0.3);
+}
+
+.incorrect-input {
+  background-color: #ffcccc;
 }

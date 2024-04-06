@@ -64,3 +64,4 @@
 /Users/bohdanzadoienko/Developing/C#/WebSudoku/WebSudoku/obj/Debug/net8.0/WebSudoku.pdb
 /Users/bohdanzadoienko/Developing/C#/WebSudoku/WebSudoku/obj/Debug/net8.0/WebSudoku.genruntimeconfig.cache
 /Users/bohdanzadoienko/Developing/C#/WebSudoku/WebSudoku/obj/Debug/net8.0/ref/WebSudoku.dll
+/Users/bohdanzadoienko/Developing/C#/WebSudoku/WebSudoku/obj/Debug/net8.0/WebSudoku.sourcelink.json
