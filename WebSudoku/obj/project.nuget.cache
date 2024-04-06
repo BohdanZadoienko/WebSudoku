@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "llYrHxD57xb35LUFptvSq4+pY6/5f0d7fgD8P8HdcLq7Hdoaaa5vlGIQhm1VPC+0tUdlxzEacPDgpDzuKcdJEw==",
+  "success": true,
+  "projectFilePath": "/Users/bohdanzadoienko/Developing/C#/WebSudoku/WebSudoku/WebSudoku.csproj",
+  "expectedPackageFiles": [
+    "/Users/bohdanzadoienko/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

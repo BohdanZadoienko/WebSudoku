@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sudoku</title>
+    <link rel="stylesheet" type="text/css" href="~/wwwroot/sudoku.css"> <!-- Update path accordingly -->
+</head>
+
+<body>
+    <div class="container">
+        <h2>Sudoku-Rätsel</h2>
+        <p id="mistakes">Der Fehler: 0</p> <!-- Mistake counter -->
+        <p id="timer">Zeit: 00:00</p> <!-- Timer display -->
+        <table id="generatedSudokuTable">
+            <!-- Table cells will be filled dynamically -->
+        </table>
+
+        <div class="button-container">
+            <button id="easyButton">Einfach</button>
+            <button id="mediumButton">Medium</button>
+            <button id="difficultButton">Schwierig</button>
+            <button id="solveButton">Lösung anzeigen</button> <!-- New button to solve Sudoku -->
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/wwwroot/sudoku.js"></script> <!-- Update path accordingly -->
+</body>
+
+</html>
