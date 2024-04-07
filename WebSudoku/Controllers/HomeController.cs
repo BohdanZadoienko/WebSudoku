@@ -60,6 +60,11 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult SolveSudoku([FromBody] int[][] puzzle)
     {
+        if (puzzle == null)
+        {
+            return BadRequest("Invalid Sudoku puzzle data.");
+        }
+
         int[,] puzzleMatrix = ConvertTo2DArray(puzzle);
         if (solver.Solve(puzzleMatrix))
         {
@@ -71,6 +76,7 @@ public class HomeController : Controller
             return BadRequest("Unable to solve the Sudoku puzzle.");
         }
     }
+
 
     // Helper method to convert a 2D array to a jagged array
     private int[][] ConvertToJaggedArray(int[,] array)
